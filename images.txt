@@ -17,7 +17,7 @@
 #--alias=bitnami-postgresql bitnami/postgresql:16
 #--alias=timescale-timescaledb timescale/timescaledb:2.17.2-pg16
 #--alias=bitnami-mongodb bitnami/mongodb:8.0
---platform=linux/arm64 bitnami/mongodb:7.0.18
+--platform=linux/arm64 arm64v8/mongo:7.0.18
 #--platform=linux/arm64 xiaoyaliu/alist
 #--alias=bitnami-redis bitnami/redis:7.4
 #--alias=bitnami-nginx bitnami/nginx:1.27
