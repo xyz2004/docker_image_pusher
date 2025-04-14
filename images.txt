@@ -1,5 +1,25 @@
-nginx
+#支持别名（格式为 '--alias=custom_image_name' ）
+#--alias=mynginx nginx
+#--alias=mynginx nginx:1.26.2-alpine-perl
 #支持私库
-ditrim/ngixi:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 
+#--platform=linux/arm64 xiaoyaliu/alist
+# rabbitmq
+#rabbitmq:3-management
+# jdk
+#--alias=myopenjdk openjdk:8-jre
+# nacos
+#--alias=sharenacos nacos/nacos-server:v2.0.3
+#--alias=bitnami-mysql mysql:8.0
+
+#--alias=bitnami-postgresql bitnami/postgresql:16
+#--alias=timescale-timescaledb timescale/timescaledb:2.17.2-pg16
+#--alias=bitnami-mongodb bitnami/mongodb:8.0
+#--alias=bitnami-redis bitnami/redis:7.4
+#--alias=bitnami-nginx bitnami/nginx:1.27
+#--alias=emqx-emqx emqx/emqx:5.8
+#--alias=emqx-emqx-arm64 --platform=linux/arm64 emqx/emqx:5.8
+--alias=bitnami-kafka bitnami/kafka:3.9
+--alias=nacos-nacos-server nacos/nacos-server:v2.5.0
