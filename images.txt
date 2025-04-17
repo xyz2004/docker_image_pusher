@@ -18,9 +18,13 @@
 #--alias=timescale-timescaledb timescale/timescaledb:2.17.2-pg16
 #--alias=bitnami-mongodb bitnami/mongodb:8.0
 #--platform=linux/arm64 arm64v8/mongo:7.0.18
---platform=linux/arm64 esme518/docker-rocketchat-arm64:7.4.2
---platform=linux/arm64 esme518/docker-rocketchat-arm64:7.5.1
---platform=linux/arm64 esme518/docker-rocketchat-arm64:7.1.5
+--alias=rocketchat742-mac --platform=linux/arm64 esme518/docker-rocketchat-arm64:7.4.2
+--alias=rocketchat751-mac --platform=linux/arm64 esme518/docker-rocketchat-arm64:7.5.1
+--alias=rocketchat715-mac --platform=linux/arm64 esme518/docker-rocketchat-arm64:7.1.5
+--alias=mongodb7018-mac --platform=linux/arm64 arm64v8/mongo:7.0.18
+--alias=mongodb6022-mac --platform=linux/arm64 arm64v8/mongo:6.0.22
+--alias=mongodb80-mac --platform=linux/arm64 arm64v8/mongo:8.0
+
 #--platform=linux/arm64 xiaoyaliu/alist
 #--alias=bitnami-redis bitnami/redis:7.4
 #--alias=bitnami-nginx bitnami/nginx:1.27
